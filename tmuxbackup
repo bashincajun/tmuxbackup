@@ -1,7 +1,6 @@
 #
 # Example .tmux.conf
 #
-# By Nicholas Marriott. Public domain.
 #
 
 # Some tweaks to the status line
@@ -66,6 +65,4 @@ bind F set -w window-size
 bind m set monitor-activity
 bind y set synchronize-panes\; display 'synchronize-panes #{?synchronize-panes,on,off}'
 
-# Create a single default session - because a session is created here, tmux
-# should be started with "tmux attach" rather than "tmux new"
 
